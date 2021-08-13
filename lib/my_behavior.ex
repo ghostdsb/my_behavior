@@ -1,0 +1,3 @@
+defmodule MyBehavior do
+
+end

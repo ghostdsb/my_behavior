@@ -1,0 +1,9 @@
+{application,my_gen_server,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"my_gen_server"},
+              {modules,['Elixir.MyBehavior.MyGenServer',
+                        'Elixir.MyBehavior.MySupervisor',
+                        'Elixir.MyBehavior.SomeApplication','Elixir.Worker']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.SomeApplication',[]}}]}.

@@ -1,0 +1,10 @@
+{application,my_behavior,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"my_behavior"},
+              {modules,['Elixir.MyBehavior','Elixir.MyBehavior.MyGenServer',
+                        'Elixir.MyBehavior.MySupervisor',
+                        'Elixir.MyBehavior.SomeApplication',
+                        'Elixir.MyBehavior.Worker']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.MyBehavior.SomeApplication',[]}}]}.
